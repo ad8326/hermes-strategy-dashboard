@@ -107,6 +107,13 @@ class DashboardHandler(BaseHTTPRequestHandler):
                 json_response(self, {"error": str(error) or "行情数据请求失败"})
         elif parsed_url.path == "/api/portfolio":
             json_response(self, read_portfolio())
+        elif parsed_url.path == "/api/gm_strategy":
+            # 格林美 RSI+KDJ 双超卖策略：实时指标 + 回测统计
+            try:
+                import gm_strategy
+                json_response(self, gm_strategy.full_snapshot())
+            except Exception as error:  # 数据源异常时降级，不崩溃
+                json_response(self, {"error": str(error)})
         else:
             self.send_error(404)
 
