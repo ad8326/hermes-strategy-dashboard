@@ -31,6 +31,18 @@
   .chart-box { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
   .chart-box h3 { font-size: 14px; color: var(--muted); margin-bottom: 10px; font-weight: 500; }
   .grid-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 14px; }
+  .backtest-controls { display: flex; flex-wrap: wrap; align-items: end; gap: 10px; padding: 16px; background: var(--panel); border: 1px solid var(--border); border-radius: 10px; }
+  .backtest-controls label { display: grid; gap: 5px; color: var(--muted); font-size: 12px; }
+  .backtest-controls input, .backtest-controls button { min-height: 36px; border: 1px solid var(--border); border-radius: 6px; background: var(--panel2); color: var(--text); padding: 7px 10px; font: inherit; }
+  .backtest-controls button { cursor: pointer; }
+  .backtest-controls button:hover { border-color: var(--accent); }
+  .backtest-controls .primary { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+  #backtest-error { min-height: 18px; margin: 8px 0; color: var(--up); font-size: 12px; }
+  #backtest-results[hidden] { display: none; }
+  .backtest-chart { height: 320px; }
+  .backtest-subtitle { margin: 24px 0 10px; font-size: 14px; color: var(--muted); font-weight: 500; }
+  .table-scroll { overflow-x: auto; }
+  .backtest-table { min-width: 700px; }
   .card { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 18px; }
   .card .head { display: flex; align-items: baseline; gap: 8px; }
   .card .head .icon { font-size: 20px; }
@@ -76,6 +88,38 @@
   <h2>🧠 策略与方法全景</h2>
   <div class="grid-cards" id="strategies"></div>
 
+  <h2>🧪 指标回测</h2>
+  <div class="backtest-controls">
+    <label>开始日期<input id="backtest-start" type="date"></label>
+    <label>结束日期<input id="backtest-end" type="date"></label>
+    <button type="button" data-range="1m">近 1 月</button>
+    <button type="button" data-range="3m">近 3 月</button>
+    <button type="button" data-range="all">全区间</button>
+    <button type="button" class="primary" id="run-backtest">运行回测</button>
+  </div>
+  <p id="backtest-error" role="status"></p>
+  <div id="backtest-results" hidden>
+    <div class="kpis" id="backtest-kpis"></div>
+    <div class="chart-box" style="margin-top:14px">
+      <h3>区间净值与回撤</h3>
+      <div class="backtest-chart"><canvas id="backtest-chart"></canvas></div>
+    </div>
+    <h3 class="backtest-subtitle">三因子信号 FIFO 配对明细</h3>
+    <div class="table-scroll">
+      <table class="backtest-table">
+        <thead><tr><th>买入日</th><th>卖出日</th><th>标的</th><th class="num">持有天数</th><th class="num">盈亏%</th></tr></thead>
+        <tbody id="backtest-pairs"></tbody>
+      </table>
+    </div>
+    <h3 class="backtest-subtitle">基准对照</h3>
+    <div class="table-scroll">
+      <table class="backtest-table">
+        <thead><tr><th>基准</th><th class="num">区间收益</th><th>说明</th></tr></thead>
+        <tbody id="backtest-benchmarks"></tbody>
+      </table>
+    </div>
+  </div>
+
   <h2>🧬 策略演化时间线</h2>
   <div class="timeline" id="timeline"></div>
 
@@ -95,6 +139,7 @@
 </div>
 
 <script src="data.js"></script>
+<script src="backtest.js"></script>
 <script>
 const fmt = n => n.toLocaleString('zh-CN', {maximumFractionDigits: 1});
 const yuan = n => '¥' + fmt(n);
@@ -193,6 +238,144 @@ document.getElementById('job-body').innerHTML = DATA.jobs.map(j =>
 
 document.getElementById('footer').textContent =
   'Hermes Strategy Dashboard · 数据截止 2026-11-23 · 涨红跌绿 · 仅供策略研究参考，不构成投资建议';
+
+// 回测面板
+const backtestStart = document.getElementById('backtest-start');
+const backtestEnd = document.getElementById('backtest-end');
+const backtestError = document.getElementById('backtest-error');
+const backtestResults = document.getElementById('backtest-results');
+const backtestKpis = document.getElementById('backtest-kpis');
+const navDates = DATA.nav_series.map(point => point.date);
+backtestStart.min = navDates[0];
+backtestStart.max = navDates[navDates.length - 1];
+backtestStart.value = navDates[0];
+backtestEnd.min = navDates[0];
+backtestEnd.max = navDates[navDates.length - 1];
+backtestEnd.value = navDates[navDates.length - 1];
+let backtestChart = null;
+
+const backtestPct = value => Number.isFinite(value)
+  ? `${value > 0 ? '+' : ''}${fmt(value)}%`
+  : '—';
+const backtestPercentRatio = value => Number.isFinite(value) ? backtestPct(value * 100) : '—';
+const backtestRatio = value => Number.isFinite(value) ? fmt(value) : '—';
+const backtestClass = value => value > 0 ? 'up' : (value < 0 ? 'down' : '');
+const backtestMetric = (label, value, className = '', sub = '') =>
+  `<div class="kpi"><div class="label">${label}</div><div class="value ${className}">${value}</div><div class="sub">${sub}</div></div>`;
+
+function runBacktest() {
+  backtestError.textContent = '';
+  if (!backtestStart.value || !backtestEnd.value || backtestStart.value > backtestEnd.value) {
+    backtestError.textContent = '请选择有效的回测日期区间。';
+    backtestResults.hidden = true;
+    return;
+  }
+
+  const result = Backtester.run(backtestStart.value, backtestEnd.value);
+  if (!result.range.nav_series.length) {
+    backtestError.textContent = '所选区间内没有净值数据。';
+    backtestResults.hidden = true;
+    return;
+  }
+
+  const nav = result.nav;
+  const trades = result.trades;
+  const best = trades.bestTrade;
+  const worst = trades.worstTrade;
+  const metrics = [
+    backtestMetric('累计收益率', backtestPercentRatio(nav.cumulativeReturn), backtestClass(nav.cumulativeReturn)),
+    backtestMetric('年化收益率', backtestPercentRatio(nav.annualizedReturn), backtestClass(nav.annualizedReturn)),
+    backtestMetric('最大回撤', backtestPercentRatio(nav.maxDrawdown), 'down', nav.drawdownStart ? `${nav.drawdownStart} 至 ${nav.drawdownEnd}` : '区间内无回撤'),
+    backtestMetric('年化波动率', backtestPercentRatio(nav.annualizedVolatility), 'gold'),
+    backtestMetric('夏普比率', backtestRatio(nav.sharpeRatio), backtestClass(nav.sharpeRatio), '无风险利率 1.5%'),
+    backtestMetric('卡玛比率', backtestRatio(nav.calmarRatio), backtestClass(nav.calmarRatio)),
+    backtestMetric('盈利日占比', backtestPercentRatio(nav.profitableDayRatio), backtestClass(nav.profitableDayRatio)),
+    backtestMetric('平仓交易次数', fmt(trades.count)),
+    backtestMetric('交易胜率', backtestPercentRatio(trades.winRate), backtestClass(trades.winRate)),
+    backtestMetric('平均盈利', backtestPct(trades.averageWin), 'up'),
+    backtestMetric('平均亏损', backtestPct(trades.averageLoss), 'down'),
+    backtestMetric('盈亏比', backtestRatio(trades.winLossRatio), backtestClass(trades.winLossRatio)),
+    backtestMetric('累计已实现盈亏', yuan(trades.realizedPnl), cls(trades.realizedPnl)),
+    backtestMetric('最佳单笔', best ? `${backtestPct(best.pnl_pct)} · ${best.name}` : '—', best ? backtestClass(best.pnl_pct) : '', best ? yuan(best.pnl) : ''),
+    backtestMetric('最差单笔', worst ? `${backtestPct(worst.pnl_pct)} · ${worst.name}` : '—', worst ? backtestClass(worst.pnl_pct) : '', worst ? yuan(worst.pnl) : ''),
+    backtestMetric('隔夜预测准确率', backtestPercentRatio(result.overnight.accuracy), 'gold', `估算 ${fmt(result.overnight.estimatedHits)}/${fmt(result.overnight.estimatedTotal)} 次`),
+    backtestMetric('FIFO 配对笔数', fmt(result.pairedTrades.length)),
+    backtestMetric('平均持有天数', backtestRatio(result.averageHoldingDays)),
+    backtestMetric('平均持有期收益', backtestPct(result.benchmarks.averageHoldingReturn), backtestClass(result.benchmarks.averageHoldingReturn))
+  ];
+  backtestKpis.innerHTML = metrics.join('');
+
+  const dates = result.range.nav_series.map(point => point.date);
+  const chartData = result.range.nav_series.map(point => point.nav);
+  if (backtestChart) backtestChart.destroy();
+  backtestChart = new Chart(document.getElementById('backtest-chart'), {
+    type: 'line',
+    data: {
+      labels: dates.map(date => date.slice(5)),
+      datasets: [
+        {
+          label: '净值 (¥)',
+          data: chartData,
+          borderColor: '#4e8ef7',
+          backgroundColor: 'rgba(78,142,247,.12)',
+          fill: true,
+          pointRadius: 0,
+          borderWidth: 2,
+          tension: .2,
+          yAxisID: 'nav'
+        },
+        {
+          label: '回撤 (%)',
+          data: nav.drawdowns.map(value => value * 100),
+          borderColor: '#2ea86e',
+          backgroundColor: 'rgba(46,168,110,.14)',
+          fill: true,
+          pointRadius: 0,
+          borderWidth: 1,
+          tension: .15,
+          yAxisID: 'drawdown'
+        }
+      ]
+    },
+    options: {
+      maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false },
+      plugins: { legend: { labels: { color: '#8b949e' } } },
+      scales: {
+        x: { ticks: { color: '#8b949e', maxTicksLimit: 12 }, grid: { color: '#21262d' } },
+        nav: { position: 'left', ticks: { color: '#8b949e', callback: value => '¥' + (value / 1000).toFixed(1) + 'k' }, grid: { color: '#21262d' } },
+        drawdown: { position: 'right', ticks: { color: '#2ea86e', callback: value => value + '%' }, grid: { drawOnChartArea: false } }
+      }
+    }
+  });
+
+  document.getElementById('backtest-pairs').innerHTML = result.pairedTrades.length
+    ? result.pairedTrades.map(trade => `<tr><td>${trade.buyDate}</td><td>${trade.sellDate}</td><td>${trade.name} (${trade.code})</td><td class="num">${fmt(trade.holdingDays)}</td><td class="num ${backtestClass(trade.returnPct)}">${backtestPct(trade.returnPct)}</td></tr>`).join('')
+    : '<tr><td colspan="5">区间内没有完整的买入/卖出配对。</td></tr>';
+  document.getElementById('backtest-benchmarks').innerHTML = `
+    <tr><td>持有现金</td><td class="num">0.0%</td><td>基准收益为 0%</td></tr>
+    <tr><td>平均持有期收益</td><td class="num ${backtestClass(result.benchmarks.averageHoldingReturn)}">${backtestPct(result.benchmarks.averageHoldingReturn)}</td><td>${result.pairedTrades.length} 笔 FIFO 配对的等权平均收益</td></tr>`;
+  backtestResults.hidden = false;
+}
+
+document.getElementById('run-backtest').addEventListener('click', runBacktest);
+document.querySelectorAll('[data-range]').forEach(button => {
+  button.addEventListener('click', () => {
+    const end = navDates[navDates.length - 1];
+    backtestEnd.value = end;
+    if (button.dataset.range === 'all') {
+      backtestStart.value = navDates[0];
+    } else {
+      const startDate = new Date(`${end}T00:00:00Z`);
+      startDate.setUTCMonth(startDate.getUTCMonth() - (button.dataset.range === '1m' ? 1 : 3));
+      backtestStart.value = startDate.toISOString().slice(0, 10) < navDates[0]
+        ? navDates[0]
+        : startDate.toISOString().slice(0, 10);
+    }
+    runBacktest();
+  });
+});
+runBacktest();
 </script>
 </body>
 </html>
