@@ -1,0 +1,4140 @@
+{
+  "nav_series": [
+    {
+      "date": "2026-05-28",
+      "nav": 50000,
+      "ret": 0,
+      "dd": 0
+    },
+    {
+      "date": "2026-05-29",
+      "nav": 49061,
+      "ret": -1.88,
+      "dd": -1.88
+    },
+    {
+      "date": "2026-06-01",
+      "nav": 50235,
+      "ret": 0.47,
+      "dd": -1.88
+    },
+    {
+      "date": "2026-06-02",
+      "nav": 50803,
+      "ret": 1.61,
+      "dd": -2.82
+    },
+    {
+      "date": "2026-06-03",
+      "nav": 50877,
+      "ret": 1.75,
+      "dd": -2.82
+    },
+    {
+      "date": "2026-06-04",
+      "nav": 49928,
+      "ret": -0.14,
+      "dd": -2.82
+    },
+    {
+      "date": "2026-06-05",
+      "nav": 48805,
+      "ret": -2.39,
+      "dd": -4.69
+    },
+    {
+      "date": "2026-06-08",
+      "nav": 47500,
+      "ret": -5,
+      "dd": -7.24
+    },
+    {
+      "date": "2026-06-09",
+      "nav": 47681,
+      "ret": -4.64,
+      "dd": -7.24
+    },
+    {
+      "date": "2026-06-10",
+      "nav": 47548,
+      "ret": -4.9,
+      "dd": -7.24
+    },
+    {
+      "date": "2026-06-11",
+      "nav": 47501,
+      "ret": -5,
+      "dd": -7.24
+    },
+    {
+      "date": "2026-06-12",
+      "nav": 47443,
+      "ret": -5.11,
+      "dd": -7.35
+    },
+    {
+      "date": "2026-06-15",
+      "nav": 47955,
+      "ret": -4.09,
+      "dd": -7.35
+    },
+    {
+      "date": "2026-06-16",
+      "nav": 47917,
+      "ret": -4.17,
+      "dd": -7.35
+    },
+    {
+      "date": "2026-06-17",
+      "nav": 48244,
+      "ret": -3.51,
+      "dd": -7.35
+    },
+    {
+      "date": "2026-06-18",
+      "nav": 48467,
+      "ret": -3.07,
+      "dd": -7.35
+    },
+    {
+      "date": "2026-06-19",
+      "nav": 48467,
+      "ret": -3.07,
+      "dd": -7.35
+    },
+    {
+      "date": "2026-06-22",
+      "nav": 49196,
+      "ret": -1.61,
+      "dd": -7.35
+    },
+    {
+      "date": "2026-06-23",
+      "nav": 49238,
+      "ret": -1.52,
+      "dd": -7.35
+    },
+    {
+      "date": "2026-06-24",
+      "nav": 50198,
+      "ret": 0.4,
+      "dd": -7.35
+    },
+    {
+      "date": "2026-06-25",
+      "nav": 49326,
+      "ret": -1.35,
+      "dd": -7.35
+    },
+    {
+      "date": "2026-06-26",
+      "nav": 49051,
+      "ret": -1.9,
+      "dd": -7.35
+    },
+    {
+      "date": "2026-06-29",
+      "nav": 48892,
+      "ret": -2.22,
+      "dd": -7.35
+    },
+    {
+      "date": "2026-06-30",
+      "nav": 49466,
+      "ret": -1.07,
+      "dd": -7.35
+    },
+    {
+      "date": "2026-07-01",
+      "nav": 49766,
+      "ret": -0.47,
+      "dd": -7.35
+    },
+    {
+      "date": "2026-07-02",
+      "nav": 50125,
+      "ret": 0.25,
+      "dd": -7.35
+    },
+    {
+      "date": "2026-07-03",
+      "nav": 50125,
+      "ret": 0.25,
+      "dd": -7.35
+    },
+    {
+      "date": "2026-07-06",
+      "nav": 49486,
+      "ret": -1.03,
+      "dd": -7.35
+    },
+    {
+      "date": "2026-07-07",
+      "nav": 49291,
+      "ret": -1.42,
+      "dd": -7.35
+    },
+    {
+      "date": "2026-07-08",
+      "nav": 48550,
+      "ret": -2.9,
+      "dd": -7.35
+    },
+    {
+      "date": "2026-07-09",
+      "nav": 48709,
+      "ret": -2.58,
+      "dd": -7.35
+    },
+    {
+      "date": "2026-07-10",
+      "nav": 47935,
+      "ret": -4.13,
+      "dd": -7.35
+    },
+    {
+      "date": "2026-07-13",
+      "nav": 47935,
+      "ret": -4.13,
+      "dd": -7.35
+    },
+    {
+      "date": "2026-07-14",
+      "nav": 47935,
+      "ret": -4.13,
+      "dd": -7.35
+    },
+    {
+      "date": "2026-07-15",
+      "nav": 47935,
+      "ret": -4.13,
+      "dd": -7.35
+    },
+    {
+      "date": "2026-07-16",
+      "nav": 47935,
+      "ret": -4.13,
+      "dd": -7.35
+    },
+    {
+      "date": "2026-07-17",
+      "nav": 47935,
+      "ret": -4.13,
+      "dd": -7.35
+    },
+    {
+      "date": "2026-07-20",
+      "nav": 47935,
+      "ret": -4.13,
+      "dd": -7.35
+    },
+    {
+      "date": "2026-07-21",
+      "nav": 47935,
+      "ret": -4.13,
+      "dd": -7.35
+    },
+    {
+      "date": "2026-07-22",
+      "nav": 47935,
+      "ret": -4.13,
+      "dd": -7.35
+    },
+    {
+      "date": "2026-07-23",
+      "nav": 47935,
+      "ret": -4.13,
+      "dd": -7.35
+    },
+    {
+      "date": "2026-07-24",
+      "nav": 47935,
+      "ret": -4.13,
+      "dd": -7.35
+    },
+    {
+      "date": "2026-07-27",
+      "nav": 47935,
+      "ret": -4.13,
+      "dd": -7.35
+    },
+    {
+      "date": "2026-07-28",
+      "nav": 47935,
+      "ret": -4.13,
+      "dd": -7.35
+    },
+    {
+      "date": "2026-07-29",
+      "nav": 47935,
+      "ret": -4.13,
+      "dd": -7.35
+    },
+    {
+      "date": "2026-07-30",
+      "nav": 46883,
+      "ret": -6.23,
+      "dd": -8.45
+    },
+    {
+      "date": "2026-07-31",
+      "nav": 45779,
+      "ret": -8.44,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-08-03",
+      "nav": 46531,
+      "ret": -6.94,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-08-04",
+      "nav": 46719,
+      "ret": -6.56,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-08-05",
+      "nav": 46975,
+      "ret": -6.05,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-08-06",
+      "nav": 46494,
+      "ret": -7.01,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-08-07",
+      "nav": 47122,
+      "ret": -5.76,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-08-10",
+      "nav": 47802,
+      "ret": -4.4,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-08-11",
+      "nav": 49400,
+      "ret": -1.2,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-08-12",
+      "nav": 50263,
+      "ret": 0.53,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-08-13",
+      "nav": 49503,
+      "ret": -0.99,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-08-14",
+      "nav": 49635,
+      "ret": -0.73,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-08-17",
+      "nav": 50424,
+      "ret": 0.85,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-08-18",
+      "nav": 50817,
+      "ret": 1.63,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-08-19",
+      "nav": 49804,
+      "ret": -0.39,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-08-20",
+      "nav": 49476,
+      "ret": -1.05,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-08-21",
+      "nav": 50100,
+      "ret": 0.2,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-08-24",
+      "nav": 49956,
+      "ret": -0.09,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-08-25",
+      "nav": 49644,
+      "ret": -0.71,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-08-26",
+      "nav": 49620,
+      "ret": -0.76,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-08-27",
+      "nav": 49644,
+      "ret": -0.71,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-08-28",
+      "nav": 50508,
+      "ret": 1.02,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-08-31",
+      "nav": 50256,
+      "ret": 0.51,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-09-01",
+      "nav": 50277,
+      "ret": 0.55,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-09-02",
+      "nav": 49899,
+      "ret": -0.2,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-09-03",
+      "nav": 49584,
+      "ret": -0.83,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-09-04",
+      "nav": 49290,
+      "ret": -1.42,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-09-07",
+      "nav": 49227,
+      "ret": -1.55,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-09-08",
+      "nav": 49248,
+      "ret": -1.5,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-09-09",
+      "nav": 49395,
+      "ret": -1.21,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-09-10",
+      "nav": 49038,
+      "ret": -1.92,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-09-11",
+      "nav": 49038,
+      "ret": -1.92,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-09-14",
+      "nav": 49038,
+      "ret": -1.92,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-09-15",
+      "nav": 49038,
+      "ret": -1.92,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-09-16",
+      "nav": 49038,
+      "ret": -1.92,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-09-17",
+      "nav": 48908,
+      "ret": -2.18,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-09-18",
+      "nav": 49038,
+      "ret": -1.92,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-09-21",
+      "nav": 49346,
+      "ret": -1.31,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-09-22",
+      "nav": 49216,
+      "ret": -1.57,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-09-23",
+      "nav": 49250,
+      "ret": -1.5,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-09-24",
+      "nav": 48700,
+      "ret": -2.6,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-09-25",
+      "nav": 48700,
+      "ret": -2.6,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-09-28",
+      "nav": 48102,
+      "ret": -3.8,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-09-29",
+      "nav": 48102,
+      "ret": -3.8,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-09-30",
+      "nav": 48102,
+      "ret": -3.8,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-10-01",
+      "nav": 48102,
+      "ret": -3.8,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-10-02",
+      "nav": 48102,
+      "ret": -3.8,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-10-05",
+      "nav": 48102,
+      "ret": -3.8,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-10-06",
+      "nav": 48102,
+      "ret": -3.8,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-10-07",
+      "nav": 48102,
+      "ret": -3.8,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-10-08",
+      "nav": 48102,
+      "ret": -3.8,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-10-09",
+      "nav": 48102,
+      "ret": -3.8,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-10-12",
+      "nav": 48102,
+      "ret": -3.8,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-10-13",
+      "nav": 48102,
+      "ret": -3.8,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-10-14",
+      "nav": 48102,
+      "ret": -3.8,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-10-15",
+      "nav": 48102,
+      "ret": -3.8,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-10-16",
+      "nav": 48102,
+      "ret": -3.8,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-10-19",
+      "nav": 48102,
+      "ret": -3.8,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-10-20",
+      "nav": 48102,
+      "ret": -3.8,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-10-21",
+      "nav": 48102,
+      "ret": -3.8,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-10-22",
+      "nav": 48102,
+      "ret": -3.8,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-10-23",
+      "nav": 48102,
+      "ret": -3.8,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-10-26",
+      "nav": 48102,
+      "ret": -3.8,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-10-27",
+      "nav": 48102,
+      "ret": -3.8,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-10-28",
+      "nav": 48102,
+      "ret": -3.8,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-10-29",
+      "nav": 48102,
+      "ret": -3.8,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-10-30",
+      "nav": 48102,
+      "ret": -3.8,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-11-02",
+      "nav": 48102,
+      "ret": -3.8,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-11-03",
+      "nav": 48102,
+      "ret": -3.8,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-11-04",
+      "nav": 48102,
+      "ret": -3.8,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-11-05",
+      "nav": 48102,
+      "ret": -3.8,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-11-06",
+      "nav": 48102,
+      "ret": -3.8,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-11-09",
+      "nav": 48102,
+      "ret": -3.8,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-11-10",
+      "nav": 48102,
+      "ret": -3.8,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-11-11",
+      "nav": 48102,
+      "ret": -3.8,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-11-12",
+      "nav": 48102,
+      "ret": -3.8,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-11-13",
+      "nav": 48102,
+      "ret": -3.8,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-11-16",
+      "nav": 48102,
+      "ret": -3.8,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-11-17",
+      "nav": 48102,
+      "ret": -3.8,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-11-18",
+      "nav": 48102,
+      "ret": -3.8,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-11-19",
+      "nav": 48102,
+      "ret": -3.8,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-11-20",
+      "nav": 48102,
+      "ret": -3.8,
+      "dd": -10.6
+    },
+    {
+      "date": "2026-11-23",
+      "nav": 48102,
+      "ret": -3.8,
+      "dd": -10.6
+    }
+  ],
+  "transactions": [
+    {
+      "date": "2026-05-29",
+      "action": "BUY",
+      "code": "000506",
+      "name": "招金黄金",
+      "price": 14.66,
+      "shares": 1000,
+      "cost": 14660,
+      "reason": "戴维斯7.0+技术0.5+行业+0.0=5.8"
+    },
+    {
+      "date": "2026-05-29",
+      "action": "BUY",
+      "code": "603045",
+      "name": "福达合金",
+      "price": 63.32,
+      "shares": 200,
+      "cost": 12664,
+      "reason": "戴维斯6.0+技术1.0+行业+0.0=5.8"
+    },
+    {
+      "date": "2026-05-29",
+      "action": "BUY",
+      "code": "601069",
+      "name": "西部黄金",
+      "price": 27.93,
+      "shares": 500,
+      "cost": 13965,
+      "reason": "戴维斯6.0+技术1.0+行业+0.0=5.8"
+    },
+    {
+      "date": "2026-06-01",
+      "action": "SELL",
+      "code": "603045",
+      "name": "福达合金",
+      "price": 68.42,
+      "shares": 200,
+      "proceeds": 13684,
+      "cost": 12664,
+      "pnl": 1020,
+      "pnl_pct": 8.1,
+      "reason": "移动止盈触发 (高点68.42 回撤5%)",
+      "entry_date": "2026-05-29",
+      "entry_price": 63.32
+    },
+    {
+      "date": "2026-06-02",
+      "action": "SELL",
+      "code": "000506",
+      "name": "招金黄金",
+      "price": 13.54,
+      "shares": 1000,
+      "proceeds": 13540,
+      "cost": 14660,
+      "pnl": -1120,
+      "pnl_pct": -7.6,
+      "reason": "硬止损触发 (当前-7.6% <= -5%)",
+      "entry_date": "2026-05-29",
+      "entry_price": 14.66
+    },
+    {
+      "date": "2026-06-02",
+      "action": "BUY",
+      "code": "600961",
+      "name": "株冶集团",
+      "price": 24.84,
+      "shares": 600,
+      "cost": 14904,
+      "reason": "戴维斯7.0+技术1.0+行业+1.0=6.2"
+    },
+    {
+      "date": "2026-06-02",
+      "action": "BUY",
+      "code": "688127",
+      "name": "蓝特光学",
+      "price": 79.82,
+      "shares": 100,
+      "cost": 7982,
+      "reason": "戴维斯6.5+技术1.0+行业+0.5=5.6"
+    },
+    {
+      "date": "2026-06-04",
+      "action": "SELL",
+      "code": "601069",
+      "name": "西部黄金",
+      "price": 26.48,
+      "shares": 500,
+      "proceeds": 13240,
+      "cost": 13965,
+      "pnl": -725,
+      "pnl_pct": -5.2,
+      "reason": "硬止损触发 (当前-5.2% <= -5%)",
+      "entry_date": "2026-05-29",
+      "entry_price": 27.93
+    },
+    {
+      "date": "2026-06-05",
+      "action": "BUY",
+      "code": "002842",
+      "name": "翔鹭钨业",
+      "price": 34.22,
+      "shares": 400,
+      "cost": 13688,
+      "reason": "戴维斯7.0+技术1.0+行业+0.5=7.0"
+    },
+    {
+      "date": "2026-06-08",
+      "action": "SELL",
+      "code": "600961",
+      "name": "株冶集团",
+      "price": 23.43,
+      "shares": 600,
+      "proceeds": 14058,
+      "cost": 14904,
+      "pnl": -846,
+      "pnl_pct": -5.7,
+      "reason": "硬止损触发 (当前-5.7% <= -5%)",
+      "entry_date": "2026-06-02",
+      "entry_price": 24.84
+    },
+    {
+      "date": "2026-06-08",
+      "action": "SELL",
+      "code": "002842",
+      "name": "翔鹭钨业",
+      "price": 32.15,
+      "shares": 400,
+      "proceeds": 12860,
+      "cost": 13688,
+      "pnl": -828,
+      "pnl_pct": -6,
+      "reason": "硬止损触发 (当前-6.0% <= -5%)",
+      "entry_date": "2026-06-05",
+      "entry_price": 34.22
+    },
+    {
+      "date": "2026-06-18",
+      "action": "SELL",
+      "code": "688127",
+      "name": "蓝特光学",
+      "price": 89.48,
+      "shares": 100,
+      "proceeds": 8948,
+      "cost": 7982,
+      "pnl": 966,
+      "pnl_pct": 12.1,
+      "reason": "移动止盈触发 (高点89.48 回撤5%)",
+      "entry_date": "2026-06-02",
+      "entry_price": 79.82
+    },
+    {
+      "date": "2026-06-19",
+      "action": "BUY",
+      "code": "600961",
+      "name": "株冶集团",
+      "price": 28.82,
+      "shares": 500,
+      "cost": 14410,
+      "reason": "戴维斯9.0+技术1.5+行业+0.0=7.7"
+    },
+    {
+      "date": "2026-06-19",
+      "action": "BUY",
+      "code": "603026",
+      "name": "石大胜华",
+      "price": 92.7,
+      "shares": 100,
+      "cost": 9270,
+      "reason": "戴维斯7.5+技术1.0+行业+0.0=6.8"
+    },
+    {
+      "date": "2026-06-22",
+      "action": "SELL",
+      "code": "603026",
+      "name": "石大胜华",
+      "price": 85.59,
+      "shares": 100,
+      "proceeds": 8559,
+      "cost": 9270,
+      "pnl": -711,
+      "pnl_pct": -7.7,
+      "reason": "三三制老仓清仓 (老仓亏损-7.7% ≤ -3%)",
+      "entry_date": "2026-06-19",
+      "entry_price": 92.7
+    },
+    {
+      "date": "2026-06-22",
+      "action": "SELL",
+      "code": "600961",
+      "name": "株冶集团",
+      "price": 31.7,
+      "shares": 500,
+      "proceeds": 15850,
+      "cost": 14410,
+      "pnl": 1440,
+      "pnl_pct": 10,
+      "reason": "移动止盈触发 (高点31.70 回撤5%)",
+      "entry_date": "2026-06-19",
+      "entry_price": 28.82
+    },
+    {
+      "date": "2026-06-23",
+      "action": "BUY",
+      "code": "002653",
+      "name": "海思科",
+      "price": 53,
+      "shares": 200,
+      "cost": 10600,
+      "reason": "戴维斯7.5+技术0.5+行业+2.0=7.2",
+      "sansanzhi_phase": "probe"
+    },
+    {
+      "date": "2026-06-25",
+      "action": "SELL",
+      "code": "002653",
+      "name": "海思科",
+      "price": 56,
+      "shares": 200,
+      "proceeds": 11200,
+      "cost": 10600,
+      "pnl": 600,
+      "pnl_pct": 5.7,
+      "reason": "移动止盈触发 (高点58.01 回撤5%)",
+      "entry_date": "2026-06-23",
+      "entry_price": 53
+    },
+    {
+      "date": "2026-06-25",
+      "action": "BUY",
+      "code": "603045",
+      "name": "福达合金",
+      "price": 90.65,
+      "shares": 100,
+      "cost": 9065,
+      "reason": "戴维斯9.0+技术1.0+行业+0.0=7.4",
+      "sansanzhi_phase": "probe"
+    },
+    {
+      "date": "2026-06-25",
+      "action": "SELL",
+      "code": "603045",
+      "name": "福达合金",
+      "price": 85.95,
+      "shares": 100,
+      "proceeds": 8595,
+      "cost": 9065,
+      "pnl": -470,
+      "pnl_pct": -5.2,
+      "reason": "三三制老仓清仓 (老仓亏损-5.2% ≤ -3%)",
+      "entry_date": "2026-06-25",
+      "entry_price": 90.65
+    },
+    {
+      "date": "2026-06-26",
+      "action": "BUY",
+      "code": "603045",
+      "name": "福达合金",
+      "price": 83.22,
+      "shares": 100,
+      "cost": 8322,
+      "reason": "戴维斯9.0+技术2.0+行业+0.0=8.1",
+      "sansanzhi_phase": "probe"
+    },
+    {
+      "date": "2026-06-26",
+      "action": "SELL",
+      "code": "603045",
+      "name": "福达合金",
+      "price": 80.47,
+      "shares": 100,
+      "proceeds": 8047,
+      "cost": 8322,
+      "pnl": -275,
+      "pnl_pct": -3.3,
+      "reason": "三三制老仓清仓 (老仓亏损-3.3% ≤ -3%)",
+      "entry_date": "2026-06-26",
+      "entry_price": 83.22
+    },
+    {
+      "date": "2026-06-29",
+      "action": "BUY",
+      "code": "688257",
+      "name": "新锐股份",
+      "price": 97.75,
+      "shares": 100,
+      "cost": 9775,
+      "reason": "戴维斯8.5+技术1.0+行业-0.5=5.8",
+      "sansanzhi_phase": "probe"
+    },
+    {
+      "date": "2026-07-02",
+      "action": "SELL",
+      "code": "688257",
+      "name": "新锐股份",
+      "price": 108.49,
+      "shares": 100,
+      "proceeds": 10849,
+      "cost": 9775,
+      "pnl": 1074,
+      "pnl_pct": 11,
+      "reason": "移动止盈触发 (高点109.27 回撤5%)",
+      "entry_date": "2026-06-29",
+      "entry_price": 97.75
+    },
+    {
+      "date": "2026-07-03",
+      "action": "BUY",
+      "code": "001337",
+      "name": "四川黄金",
+      "price": 41.21,
+      "shares": 300,
+      "cost": 12363,
+      "reason": "戴维斯8.5+技术0.5+行业+2.0=8.6",
+      "sansanzhi_phase": "probe"
+    },
+    {
+      "date": "2026-07-06",
+      "action": "SELL",
+      "code": "001337",
+      "name": "四川黄金",
+      "price": 39.08,
+      "shares": 300,
+      "proceeds": 11724,
+      "cost": 12363,
+      "pnl": -639,
+      "pnl_pct": -5.2,
+      "reason": "三三制老仓清仓 (老仓亏损-5.2% ≤ -3%)",
+      "entry_date": "2026-07-03",
+      "entry_price": 41.21
+    },
+    {
+      "date": "2026-07-07",
+      "action": "BUY",
+      "code": "002289",
+      "name": "宇顺电子",
+      "price": 48.2,
+      "shares": 300,
+      "cost": 14460,
+      "reason": "戴维斯8.0+技术0.5+行业+0.0=5.7",
+      "sansanzhi_phase": "probe"
+    },
+    {
+      "date": "2026-07-08",
+      "action": "SELL",
+      "code": "002289",
+      "name": "宇顺电子",
+      "price": 46,
+      "shares": 300,
+      "proceeds": 13800,
+      "cost": 14460,
+      "pnl": -660,
+      "pnl_pct": -4.6,
+      "reason": "三三制老仓清仓 (老仓亏损-4.6% ≤ -3%)",
+      "entry_date": "2026-07-07",
+      "entry_price": 48.2
+    },
+    {
+      "date": "2026-07-08",
+      "action": "BUY",
+      "code": "002289",
+      "name": "宇顺电子",
+      "price": 46,
+      "shares": 300,
+      "cost": 13800,
+      "reason": "戴维斯8.0+技术2.5+行业+0.0=7.0",
+      "sansanzhi_phase": "probe"
+    },
+    {
+      "date": "2026-07-10",
+      "action": "SELL",
+      "code": "002289",
+      "name": "宇顺电子",
+      "price": 43.03,
+      "shares": 300,
+      "proceeds": 12909,
+      "cost": 13800,
+      "pnl": -891,
+      "pnl_pct": -6.5,
+      "reason": "三三制老仓清仓 (老仓亏损-6.5% ≤ -3%)",
+      "entry_date": "2026-07-08",
+      "entry_price": 46
+    },
+    {
+      "date": "2026-07-30",
+      "action": "BUY",
+      "code": "688266",
+      "name": "泽璟制药",
+      "price": 127.92,
+      "shares": 100,
+      "cost": 12792,
+      "reason": "戴维斯9.0+技术0.0+行业+0.0=6.8",
+      "sansanzhi_phase": "probe"
+    },
+    {
+      "date": "2026-07-30",
+      "action": "SELL",
+      "code": "688266",
+      "name": "泽璟制药",
+      "price": 117.4,
+      "shares": 100,
+      "proceeds": 11740,
+      "cost": 12792,
+      "pnl": -1052,
+      "pnl_pct": -8.2,
+      "reason": "三三制老仓清仓 (老仓亏损-8.2% ≤ -5%)",
+      "entry_date": "2026-07-30",
+      "entry_price": 127.92
+    },
+    {
+      "date": "2026-07-31",
+      "action": "BUY",
+      "code": "688825",
+      "name": "长鑫科技",
+      "price": 59.49,
+      "shares": 200,
+      "cost": 11898,
+      "reason": "戴维斯8.0+技术0.0+行业+2.0=8.1",
+      "sansanzhi_phase": "probe"
+    },
+    {
+      "date": "2026-07-31",
+      "action": "SELL",
+      "code": "688825",
+      "name": "长鑫科技",
+      "price": 53.97,
+      "shares": 200,
+      "proceeds": 10794,
+      "cost": 11898,
+      "pnl": -1104,
+      "pnl_pct": -9.3,
+      "reason": "三三制老仓清仓 (老仓亏损-9.3% ≤ -5%)",
+      "entry_date": "2026-07-31",
+      "entry_price": 59.49
+    },
+    {
+      "date": "2026-08-03",
+      "action": "BUY",
+      "code": "688825",
+      "name": "长鑫科技",
+      "price": 53.11,
+      "shares": 400,
+      "cost": 21244,
+      "reason": "戴维斯8.0+技术0.0+行业+0.0=5.6"
+    },
+    {
+      "date": "2026-08-04",
+      "action": "BUY",
+      "code": "002064",
+      "name": "华峰化学",
+      "price": 10.65,
+      "shares": 800,
+      "cost": 8520,
+      "reason": "戴维斯8.0+技术2.0+行业+0.5=6.8"
+    },
+    {
+      "date": "2026-08-06",
+      "action": "SELL",
+      "code": "002064",
+      "name": "华峰化学",
+      "price": 11.74,
+      "shares": 800,
+      "proceeds": 9392,
+      "cost": 8520,
+      "pnl": 872,
+      "pnl_pct": 10.2,
+      "reason": "移动止盈触发 (高点11.74 回撤5%)",
+      "entry_date": "2026-08-04",
+      "entry_price": 10.65
+    },
+    {
+      "date": "2026-08-06",
+      "action": "BUY",
+      "code": "002842",
+      "name": "翔鹭钨业",
+      "price": 35.97,
+      "shares": 300,
+      "cost": 10791,
+      "reason": "戴维斯9.5+技术0.5+行业+2.0=8.1"
+    },
+    {
+      "date": "2026-08-10",
+      "action": "SELL",
+      "code": "688825",
+      "name": "长鑫科技",
+      "price": 51.3,
+      "shares": 400,
+      "proceeds": 20520,
+      "cost": 21244,
+      "pnl": -724,
+      "pnl_pct": -3.4,
+      "reason": "硬止损触发 (当前-3.4% <= -5%)",
+      "entry_date": "2026-08-03",
+      "entry_price": 53.11
+    },
+    {
+      "date": "2026-08-10",
+      "action": "SELL",
+      "code": "002842",
+      "name": "翔鹭钨业",
+      "price": 42.22,
+      "shares": 300,
+      "proceeds": 12666,
+      "cost": 10791,
+      "pnl": 1875,
+      "pnl_pct": 17.4,
+      "reason": "止盈触发 (+17.4% >= +15%)",
+      "entry_date": "2026-08-06",
+      "entry_price": 35.97
+    },
+    {
+      "date": "2026-08-11",
+      "action": "BUY",
+      "code": "000703",
+      "name": "恒逸石化",
+      "price": 17.67,
+      "shares": 500,
+      "cost": 8835,
+      "reason": "戴维斯10.5+技术1.0+行业+0.5=7.2"
+    },
+    {
+      "date": "2026-08-11",
+      "action": "BUY",
+      "code": "002064",
+      "name": "华峰化学",
+      "price": 11.95,
+      "shares": 400,
+      "cost": 4780,
+      "reason": "戴维斯8.0+技术1.0+行业+0.0=6.0"
+    },
+    {
+      "date": "2026-08-11",
+      "action": "BUY",
+      "code": "688309",
+      "name": "恒誉环保",
+      "price": 68.63,
+      "shares": 300,
+      "cost": 20589,
+      "reason": "戴维斯7.5+技术1.0+行业-0.5=5.5"
+    },
+    {
+      "date": "2026-08-11",
+      "action": "SELL",
+      "code": "002064",
+      "name": "华峰化学",
+      "price": 11.53,
+      "shares": 400,
+      "proceeds": 4612,
+      "cost": 4780,
+      "pnl": -168,
+      "pnl_pct": -3.5,
+      "reason": "硬止损触发 (当前-3.5% <= -5%)",
+      "entry_date": "2026-08-11",
+      "entry_price": 11.95
+    },
+    {
+      "date": "2026-08-12",
+      "action": "SELL",
+      "code": "688309",
+      "name": "恒誉环保",
+      "price": 78.37,
+      "shares": 300,
+      "proceeds": 23511,
+      "cost": 20589,
+      "pnl": 2922,
+      "pnl_pct": 14.2,
+      "reason": "移动止盈触发 (高点78.37 回撤5%)",
+      "entry_date": "2026-08-11",
+      "entry_price": 68.63
+    },
+    {
+      "date": "2026-08-12",
+      "action": "BUY",
+      "code": "002378",
+      "name": "章源钨业",
+      "price": 26.8,
+      "shares": 300,
+      "cost": 8040,
+      "reason": "戴维斯8.0+技术1.0+行业+1.0=6.9"
+    },
+    {
+      "date": "2026-08-13",
+      "action": "BUY",
+      "code": "603162",
+      "name": "海通发展",
+      "price": 11.61,
+      "shares": 1200,
+      "cost": 13932,
+      "reason": "戴维斯9.5+技术1.0+行业+0.0=7.8"
+    },
+    {
+      "date": "2026-08-13",
+      "action": "SELL",
+      "code": "000703",
+      "name": "恒逸石化",
+      "price": 16.83,
+      "shares": 500,
+      "proceeds": 8415,
+      "cost": 8835,
+      "pnl": -420,
+      "pnl_pct": -4.8,
+      "reason": "硬止损触发 (当前-4.8% <= -5%)",
+      "entry_date": "2026-08-11",
+      "entry_price": 17.67
+    },
+    {
+      "date": "2026-08-19",
+      "action": "BUY",
+      "code": "002192",
+      "name": "融捷股份",
+      "price": 68.5,
+      "shares": 200,
+      "cost": 13700,
+      "reason": "戴维斯10.0+技术2.0+行业+0.0=8.7"
+    },
+    {
+      "date": "2026-08-19",
+      "action": "SELL",
+      "code": "002378",
+      "name": "章源钨业",
+      "price": 25.48,
+      "shares": 300,
+      "proceeds": 7644,
+      "cost": 8040,
+      "pnl": -396,
+      "pnl_pct": -4.9,
+      "reason": "硬止损触发 (当前-4.9% <= -5%)",
+      "entry_date": "2026-08-12",
+      "entry_price": 26.8
+    },
+    {
+      "date": "2026-08-20",
+      "action": "SELL",
+      "code": "002192",
+      "name": "融捷股份",
+      "price": 65.92,
+      "shares": 200,
+      "proceeds": 13184,
+      "cost": 13700,
+      "pnl": -516,
+      "pnl_pct": -3.8,
+      "reason": "硬止损触发 (当前-3.8% <= -5%)",
+      "entry_date": "2026-08-19",
+      "entry_price": 68.5
+    },
+    {
+      "date": "2026-08-31",
+      "action": "SELL",
+      "code": "603162",
+      "name": "海通发展",
+      "price": 12.47,
+      "shares": 1200,
+      "proceeds": 14964,
+      "cost": 13932,
+      "pnl": 1032,
+      "pnl_pct": 7.4,
+      "reason": "移动止盈触发 (高点12.68 回撤5%)",
+      "entry_date": "2026-08-13",
+      "entry_price": 11.61
+    },
+    {
+      "date": "2026-09-01",
+      "action": "BUY",
+      "code": "000567",
+      "name": "海德股份",
+      "price": 7.08,
+      "shares": 2100,
+      "cost": 14868,
+      "reason": "戴维斯10.0+技术1.0+行业+0.0=8.1"
+    },
+    {
+      "date": "2026-09-03",
+      "action": "SELL",
+      "code": "000567",
+      "name": "海德股份",
+      "price": 6.76,
+      "shares": 2100,
+      "proceeds": 14196,
+      "cost": 14868,
+      "pnl": -672,
+      "pnl_pct": -4.5,
+      "reason": "硬止损触发 (当前-4.5% <= -5%)",
+      "entry_date": "2026-09-01",
+      "entry_price": 7.08
+    },
+    {
+      "date": "2026-09-04",
+      "action": "BUY",
+      "code": "000567",
+      "name": "海德股份",
+      "price": 6.86,
+      "shares": 2100,
+      "cost": 14406,
+      "reason": "戴维斯10.0+技术2.0+行业+0.0=9.7"
+    },
+    {
+      "date": "2026-09-10",
+      "action": "SELL",
+      "code": "000567",
+      "name": "海德股份",
+      "price": 6.6,
+      "shares": 2100,
+      "proceeds": 13860,
+      "cost": 14406,
+      "pnl": -546,
+      "pnl_pct": -3.8,
+      "reason": "硬止损触发 (当前-3.8% <= -5%)",
+      "entry_date": "2026-09-04",
+      "entry_price": 6.86
+    },
+    {
+      "date": "2026-09-17",
+      "action": "BUY",
+      "code": "688449",
+      "name": "联芸科技",
+      "price": 63.3,
+      "shares": 200,
+      "cost": 12660,
+      "reason": "戴维斯8.5+技术1.5+行业+0.0=7.5"
+    },
+    {
+      "date": "2026-09-28",
+      "action": "SELL",
+      "code": "688449",
+      "name": "联芸科技",
+      "price": 58.62,
+      "shares": 200,
+      "proceeds": 11724,
+      "cost": 12660,
+      "pnl": -936,
+      "pnl_pct": -7.4,
+      "reason": "硬止损触发 (当前-7.4% <= -5%)",
+      "entry_date": "2026-09-17",
+      "entry_price": 63.3
+    }
+  ],
+  "strategy_config": {
+    "max_positions": 1,
+    "max_position_pct": 0.15,
+    "min_signal_score": 7,
+    "stop_loss_pct": -0.05,
+    "take_profit_pct": 0.15,
+    "trailing_stop_active_pct": 0.08,
+    "trailing_stop_pct": 0.05,
+    "max_daily_drawdown_pct": -0.03,
+    "davis_weight": 0.5,
+    "tech_weight": 0.33,
+    "industry_weight": 0.17,
+    "min_tech_score": 1,
+    "no_st_stocks": true,
+    "dynamic_stop_enabled": true,
+    "tiered_position_enabled": true,
+    "industry_momentum_enabled": true
+  },
+  "tune_history": [
+    {
+      "date": "2026-05-26",
+      "return_5d": -2.51,
+      "max_drawdown": -2.51,
+      "losses": 0,
+      "holdings_low_tech": 2,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "davis_weight",
+          "old": 0.55,
+          "new": 0.45000000000000007,
+          "reason": "低技术分持仓(2/3)全亏,近5日-2.5%→降戴维斯提技术+行业"
+        },
+        {
+          "param": "tech_weight",
+          "old": 0.3,
+          "new": 0.36,
+          "reason": "配合权重调整→提技术权重"
+        },
+        {
+          "param": "industry_weight",
+          "old": 0.15,
+          "new": 0.19,
+          "reason": "加入行业动量过滤"
+        },
+        {
+          "param": "min_tech_score",
+          "old": -2,
+          "new": -0.5,
+          "reason": "提高技术分门槛"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-26",
+      "return_5d": -1.84,
+      "max_drawdown": -2.51,
+      "losses": 1,
+      "holdings_low_tech": 2,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "davis_weight",
+          "old": 0.45,
+          "new": 0.35,
+          "reason": "低技术分持仓(2/2)全亏,近5日-1.8%→降戴维斯提技术+行业"
+        },
+        {
+          "param": "tech_weight",
+          "old": 0.36,
+          "new": 0.42,
+          "reason": "配合权重调整→提技术权重"
+        },
+        {
+          "param": "industry_weight",
+          "old": 0.19,
+          "new": 0.23,
+          "reason": "加入行业动量过滤"
+        },
+        {
+          "param": "min_tech_score",
+          "old": -0.5,
+          "new": 0,
+          "reason": "提高技术分门槛"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-27",
+      "return_5d": -0.66,
+      "max_drawdown": -2.6,
+      "losses": 1,
+      "holdings_low_tech": 2,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "davis_weight",
+          "old": 0.35,
+          "new": 0.3,
+          "reason": "低技术分持仓(2/3)全亏,近5日-0.7%→降戴维斯提技术+行业"
+        },
+        {
+          "param": "tech_weight",
+          "old": 0.42,
+          "new": 0.45,
+          "reason": "配合权重调整→提技术权重"
+        },
+        {
+          "param": "industry_weight",
+          "old": 0.23,
+          "new": 0.25,
+          "reason": "加入行业动量过滤"
+        },
+        {
+          "param": "min_tech_score",
+          "old": 0,
+          "new": 0.5,
+          "reason": "提高技术分门槛"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-27",
+      "return_5d": -1.6,
+      "max_drawdown": -3.52,
+      "losses": 1,
+      "holdings_low_tech": 2,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "min_tech_score",
+          "old": 0.5,
+          "new": 1,
+          "reason": "提高技术分门槛"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-28",
+      "return_5d": -3.1,
+      "max_drawdown": -5.53,
+      "losses": 2,
+      "holdings_low_tech": 1,
+      "holdings_high_tech": 2,
+      "changes": []
+    },
+    {
+      "date": "2026-05-29",
+      "return_5d": 0,
+      "max_drawdown": 0,
+      "losses": 0,
+      "holdings_low_tech": 1,
+      "holdings_high_tech": 2,
+      "changes": [
+        {
+          "param": "davis_weight",
+          "old": 0.2,
+          "new": 0.3,
+          "reason": "高技术分跑赢低技术分(2vs1)→微调"
+        },
+        {
+          "param": "tech_weight",
+          "old": 0.35,
+          "new": 0.39999999999999997,
+          "reason": "技术分有效性确认→提速"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-29",
+      "return_5d": -1.88,
+      "max_drawdown": -1.88,
+      "losses": 0,
+      "holdings_low_tech": 1,
+      "holdings_high_tech": 2,
+      "changes": [
+        {
+          "param": "davis_weight",
+          "old": 0.2,
+          "new": 0.3,
+          "reason": "高技术分跑赢低技术分(2vs1)→微调"
+        },
+        {
+          "param": "tech_weight",
+          "old": 0.35,
+          "new": 0.39999999999999997,
+          "reason": "技术分有效性确认→提速"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-01",
+      "return_5d": 1.48,
+      "max_drawdown": -1.88,
+      "losses": 0,
+      "holdings_low_tech": 1,
+      "holdings_high_tech": 2,
+      "changes": [
+        {
+          "param": "tech_weight",
+          "old": 0.4,
+          "new": 0.45,
+          "reason": "技术分有效性确认→提速"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-02",
+      "return_5d": 3.55,
+      "max_drawdown": -2.82,
+      "losses": 1,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 3,
+      "changes": [
+        {
+          "param": "davis_weight",
+          "old": 0.3,
+          "new": 0.35,
+          "reason": "整体盈利+3.6%, 回归默认权重"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-03",
+      "return_5d": 3.85,
+      "max_drawdown": -2.82,
+      "losses": 1,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 3,
+      "changes": [
+        {
+          "param": "davis_weight",
+          "old": 0.35,
+          "new": 0.39999999999999997,
+          "reason": "整体盈利+3.9%, 回归默认权重"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-08",
+      "return_5d": -4.42,
+      "max_drawdown": -6.68,
+      "losses": 4,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "max_positions",
+          "old": 3,
+          "new": 2,
+          "reason": "连续4次止损"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-08",
+      "return_5d": -4.86,
+      "max_drawdown": -7.24,
+      "losses": 4,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "max_positions",
+          "old": 2,
+          "new": 1,
+          "reason": "连续4次止损"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-18",
+      "return_5d": 2.16,
+      "max_drawdown": -7.35,
+      "losses": 0,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_positions",
+          "old": 1,
+          "new": 2,
+          "reason": "趋势转好+2.2%"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-24",
+      "return_5d": 2.04,
+      "max_drawdown": -7.35,
+      "losses": 0,
+      "holdings_low_tech": 1,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_positions",
+          "old": 1,
+          "new": 2,
+          "reason": "趋势转好+2.0%"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-10",
+      "return_5d": -1.27,
+      "max_drawdown": -7.35,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_positions",
+          "old": 2,
+          "new": 1,
+          "reason": "连续3次止损"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-30",
+      "return_5d": -3.75,
+      "max_drawdown": -8.45,
+      "losses": 1,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.3,
+          "new": 0.25,
+          "reason": "回撤扩大至-8.4%"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "return_5d": -4.36,
+      "max_drawdown": -8.45,
+      "losses": 1,
+      "holdings_low_tech": 1,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.25,
+          "new": 0.2,
+          "reason": "回撤扩大至-8.4%"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "return_5d": -4.5,
+      "max_drawdown": -10.6,
+      "losses": 2,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15000000000000002,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-03",
+      "return_5d": -4.5,
+      "max_drawdown": -10.6,
+      "losses": 2,
+      "holdings_low_tech": 1,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-03",
+      "return_5d": -0.75,
+      "max_drawdown": -10.6,
+      "losses": 2,
+      "holdings_low_tech": 1,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "return_5d": -1.94,
+      "max_drawdown": -10.6,
+      "losses": 2,
+      "holdings_low_tech": 1,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "return_5d": 2.05,
+      "max_drawdown": -10.6,
+      "losses": 2,
+      "holdings_low_tech": 1,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "return_5d": 2.61,
+      "max_drawdown": -10.6,
+      "losses": 2,
+      "holdings_low_tech": 1,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "return_5d": 0.95,
+      "max_drawdown": -10.6,
+      "losses": 2,
+      "holdings_low_tech": 1,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-06",
+      "return_5d": 0.3,
+      "max_drawdown": -10.6,
+      "losses": 0,
+      "holdings_low_tech": 2,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-06",
+      "return_5d": -0.48,
+      "max_drawdown": -10.6,
+      "losses": 0,
+      "holdings_low_tech": 2,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "davis_weight",
+          "old": 0.25,
+          "new": 0.3,
+          "reason": "低技术分持仓(2/2)全亏,近5日-0.5%→降戴维斯提技术+行业"
+        },
+        {
+          "param": "tech_weight",
+          "old": 0.55,
+          "new": 0.45,
+          "reason": "配合权重调整→提技术权重"
+        },
+        {
+          "param": "industry_weight",
+          "old": 0.41,
+          "new": 0.25,
+          "reason": "加入行业动量过滤"
+        },
+        {
+          "param": "min_tech_score",
+          "old": 0,
+          "new": 0.5,
+          "reason": "提高技术分门槛"
+        },
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-07",
+      "return_5d": -1.31,
+      "max_drawdown": -10.6,
+      "losses": 0,
+      "holdings_low_tech": 2,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "min_tech_score",
+          "old": 0.5,
+          "new": 1,
+          "reason": "提高技术分门槛"
+        },
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-07",
+      "return_5d": 0.31,
+      "max_drawdown": -10.6,
+      "losses": 0,
+      "holdings_low_tech": 2,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-10",
+      "return_5d": 1.44,
+      "max_drawdown": -10.6,
+      "losses": 0,
+      "holdings_low_tech": 2,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-10",
+      "return_5d": 2.81,
+      "max_drawdown": -10.6,
+      "losses": 0,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_positions",
+          "old": 2,
+          "new": 3,
+          "reason": "趋势转好+2.8%"
+        },
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "return_5d": 3.11,
+      "max_drawdown": -10.6,
+      "losses": 0,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 3,
+      "changes": [
+        {
+          "param": "davis_weight",
+          "old": 0.3,
+          "new": 0.35,
+          "reason": "近5日收益+3.1%>3%, 策略有效→Davis30%→35%回归均衡"
+        },
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "return_5d": 4.83,
+      "max_drawdown": -10.6,
+      "losses": 1,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 2,
+      "changes": [
+        {
+          "param": "davis_weight",
+          "old": 0.35,
+          "new": 0.39999999999999997,
+          "reason": "近5日收益+4.8%>3%, 策略有效→Davis35%→40%回归均衡"
+        },
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "return_5d": 7.89,
+      "max_drawdown": -10.6,
+      "losses": 0,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 2,
+      "changes": [
+        {
+          "param": "davis_weight",
+          "old": 0.4,
+          "new": 0.45,
+          "reason": "近5日收益+7.9%>3%, 策略有效→Davis40%→45%回归均衡"
+        },
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "return_5d": 5.15,
+      "max_drawdown": -10.6,
+      "losses": 0,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 2,
+      "changes": [
+        {
+          "param": "davis_weight",
+          "old": 0.45,
+          "new": 0.5,
+          "reason": "近5日收益+5.1%>3%, 策略有效→Davis45%→50%回归均衡"
+        },
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "return_5d": 5.16,
+      "max_drawdown": -10.6,
+      "losses": 0,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 3,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "return_5d": 0.21,
+      "max_drawdown": -10.6,
+      "losses": 1,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 2,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "return_5d": -1.34,
+      "max_drawdown": -10.6,
+      "losses": 1,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 2,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "return_5d": -1.25,
+      "max_drawdown": -10.6,
+      "losses": 1,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 2,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-17",
+      "return_5d": -0.41,
+      "max_drawdown": -10.6,
+      "losses": 1,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 2,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-17",
+      "return_5d": 1.86,
+      "max_drawdown": -10.6,
+      "losses": 1,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 2,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-18",
+      "return_5d": 2.09,
+      "max_drawdown": -10.6,
+      "losses": 1,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 2,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-18",
+      "return_5d": 2.38,
+      "max_drawdown": -10.6,
+      "losses": 1,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 2,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "return_5d": 0.66,
+      "max_drawdown": -10.6,
+      "losses": 1,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 3,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "return_5d": -1.23,
+      "max_drawdown": -10.6,
+      "losses": 2,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 2,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "return_5d": -1.3,
+      "max_drawdown": -10.6,
+      "losses": 2,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 2,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "return_5d": -2.64,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "max_positions",
+          "old": 3,
+          "new": 2,
+          "reason": "连续3次止损"
+        },
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-21",
+      "return_5d": -0.58,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "max_positions",
+          "old": 2,
+          "new": 1,
+          "reason": "连续3次止损"
+        },
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "return_5d": 0.31,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "return_5d": -1.06,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "return_5d": 0.29,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "return_5d": -0.91,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "return_5d": 1.1,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-31",
+      "return_5d": 1.23,
+      "max_drawdown": -10.6,
+      "losses": 0,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "return_5d": 1.28,
+      "max_drawdown": -10.6,
+      "losses": 0,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "return_5d": 1.28,
+      "max_drawdown": -10.6,
+      "losses": 0,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "return_5d": -1.37,
+      "max_drawdown": -10.6,
+      "losses": 0,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "return_5d": -0.71,
+      "max_drawdown": -10.6,
+      "losses": 0,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "return_5d": -0.59,
+      "max_drawdown": -10.6,
+      "losses": 0,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "return_5d": -1.38,
+      "max_drawdown": -10.6,
+      "losses": 1,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "return_5d": -0.46,
+      "max_drawdown": -10.6,
+      "losses": 1,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "return_5d": -1.22,
+      "max_drawdown": -10.6,
+      "losses": 1,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "return_5d": -1.22,
+      "max_drawdown": -10.6,
+      "losses": 1,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "return_5d": -0.72,
+      "max_drawdown": -10.6,
+      "losses": 1,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "return_5d": -0.59,
+      "max_drawdown": -10.6,
+      "losses": 1,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "return_5d": -0.09,
+      "max_drawdown": -10.6,
+      "losses": 1,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-09",
+      "return_5d": 0.26,
+      "max_drawdown": -10.6,
+      "losses": 1,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-09",
+      "return_5d": 0.34,
+      "max_drawdown": -10.6,
+      "losses": 1,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "return_5d": -0.09,
+      "max_drawdown": -10.6,
+      "losses": 1,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "return_5d": -0.43,
+      "max_drawdown": -10.6,
+      "losses": 2,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "return_5d": -0.89,
+      "max_drawdown": -10.6,
+      "losses": 2,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "return_5d": -0.89,
+      "max_drawdown": -10.6,
+      "losses": 2,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-14",
+      "return_5d": -0.72,
+      "max_drawdown": -10.6,
+      "losses": 2,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-14",
+      "return_5d": -0.72,
+      "max_drawdown": -10.6,
+      "losses": 2,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "return_5d": -0.43,
+      "max_drawdown": -10.6,
+      "losses": 2,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "return_5d": -0.43,
+      "max_drawdown": -10.6,
+      "losses": 2,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "return_5d": 0,
+      "max_drawdown": -10.6,
+      "losses": 2,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "return_5d": 0,
+      "max_drawdown": -10.6,
+      "losses": 2,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "return_5d": 0,
+      "max_drawdown": -10.6,
+      "losses": 2,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "return_5d": -0.27,
+      "max_drawdown": -10.6,
+      "losses": 2,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "return_5d": 0,
+      "max_drawdown": -10.6,
+      "losses": 2,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "return_5d": 0,
+      "max_drawdown": -10.6,
+      "losses": 2,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "return_5d": 0.99,
+      "max_drawdown": -10.6,
+      "losses": 2,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "return_5d": 0.9,
+      "max_drawdown": -10.6,
+      "losses": 2,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "return_5d": 1.23,
+      "max_drawdown": -10.6,
+      "losses": 2,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "return_5d": 0.36,
+      "max_drawdown": -10.6,
+      "losses": 2,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "return_5d": -0.3,
+      "max_drawdown": -10.6,
+      "losses": 2,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "return_5d": -0.19,
+      "max_drawdown": -10.6,
+      "losses": 2,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "return_5d": -1.2,
+      "max_drawdown": -10.6,
+      "losses": 2,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "return_5d": -1.05,
+      "max_drawdown": -10.6,
+      "losses": 2,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "return_5d": -1.36,
+      "max_drawdown": -10.6,
+      "losses": 2,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "return_5d": -1.12,
+      "max_drawdown": -10.6,
+      "losses": 2,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 1,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "return_5d": -1.92,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "return_5d": -1.92,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "return_5d": -1.92,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-30",
+      "return_5d": -1.92,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "return_5d": -1.92,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "return_5d": -1.92,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "return_5d": -1.92,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "return_5d": -1.92,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "return_5d": -1.92,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "return_5d": -1.92,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "return_5d": -1.92,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "return_5d": -1.92,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "return_5d": -1.92,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-14",
+      "return_5d": -1.92,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "return_5d": -1.92,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "return_5d": -1.92,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "return_5d": -1.92,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "return_5d": -1.92,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "return_5d": -1.92,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "return_5d": -1.92,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "return_5d": -1.92,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "return_5d": -1.92,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "return_5d": -1.92,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "return_5d": -1.92,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "return_5d": -1.92,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "return_5d": -1.92,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "return_5d": -1.92,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "return_5d": -1.92,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "return_5d": -1.92,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "return_5d": -1.92,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "return_5d": -1.92,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "return_5d": -1.92,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "return_5d": -1.92,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "return_5d": -1.92,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "return_5d": -1.92,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "return_5d": -1.92,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "return_5d": -1.92,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "return_5d": -1.92,
+      "max_drawdown": -10.6,
+      "losses": 3,
+      "holdings_low_tech": 0,
+      "holdings_high_tech": 0,
+      "changes": [
+        {
+          "param": "max_position_pct",
+          "old": 0.2,
+          "new": 0.15,
+          "reason": "回撤扩大至-10.6%"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generated": "2026-11-24",
+    "source": "Hermes Agent (~/.hermes)",
+    "period": "2026-05-17 ~ 2026-11-23"
+  },
+  "kpis": {
+    "days": 191,
+    "total_runs": 1905,
+    "nav": {
+      "initial": 50000,
+      "current": 48102,
+      "return_pct": -3.8,
+      "max_dd": -10.6
+    },
+    "trades": {
+      "total": 58,
+      "buys": 29,
+      "sells": 29,
+      "win_rate": 31,
+      "realized": -1898,
+      "best": {
+        "name": "翔鹭钨业",
+        "pct": 17.4,
+        "pnl": 1875
+      },
+      "worst": {
+        "name": "长鑫科技",
+        "pct": -9.3,
+        "pnl": -1104
+      }
+    },
+    "overnight_acc": {
+      "hits": 84,
+      "total": 134,
+      "rate": 62.7
+    },
+    "demon": {
+      "picks": 147,
+      "wins": 97,
+      "rate": 66,
+      "pnl": 528.91
+    },
+    "tunes": 129
+  },
+  "strategies": [
+    {
+      "id": "davis",
+      "icon": "📈",
+      "name": "戴维斯双击追踪系统 v3.0",
+      "category": "选股",
+      "status": "运行中 · 每日 09:00",
+      "runs": 191,
+      "desc": "每日采集 A 股最新季报，构建「业绩×估值」双击追踪：PE 估值采集 + PEG 计算 + 扣非净利润质量过滤（扣非占比 <50% 判定为非经常性膨胀，<70% 降评分），含低基数陷阱检测。全部数据入 ChromaDB 向量库，逐日对比阶段变化并告警。",
+      "method": [
+        "季报数据采集（akshare）",
+        "PE/PEG 双维估值",
+        "扣非质量过滤（≥50% 及格线）",
+        "ChromaDB 历史阶段对比",
+        "彩色图表自动生成"
+      ],
+      "perf": "已运行 191 次，全部成功"
+    },
+    {
+      "id": "three-factor",
+      "icon": "⚖️",
+      "name": "三因子信号模型",
+      "category": "选股",
+      "status": "运行中 · 权重动态演化",
+      "runs": 129,
+      "desc": "纸盘买入信号的核心评分公式。经历 129 次参数调优：从最初 Davis×70% 演化至当前 Davis×50% + Tech×33% + Industry×17%。行业动量因子按东财行业涨幅榜做百分位映射（前 10% +2.0 → 后 15% -1.0）。",
+      "method": [
+        "Davis 基本面因子",
+        "Tech 技术面因子（均线/量比加分）",
+        "Industry 行业动量百分位映射",
+        "技术分门槛过滤",
+        "信号总分 ≥7 才开仓"
+      ],
+      "perf": "129 次调优记录，权重迭代 8+ 轮"
+    },
+    {
+      "id": "paper",
+      "icon": "💰",
+      "name": "纸盘模拟交易引擎",
+      "category": "交易",
+      "status": "运行中 · 每日早/收盘双跑",
+      "runs": 131,
+      "desc": "¥50,000 初始资金的完整模拟交易闭环：早盘信号 → 风控检查 → 下单 → 收盘结算 → 策略复盘。全流程无人工介入，亏损自动触发熔断暂停交易。",
+      "method": [
+        "硬止损 -5%",
+        "止盈 +15%",
+        "移动止盈：+8% 激活后回撤 5% 出场",
+        "日回撤 -3% 熔断",
+        "连损 3 笔暂停",
+        "单票仓位 ≤15%",
+        "禁 ST / 扣非警告股"
+      ],
+      "perf": "58 笔交易 · 最佳单笔 +17.4%"
+    },
+    {
+      "id": "sansanzhi",
+      "icon": "🔺",
+      "name": "三三制仓位法",
+      "category": "仓位",
+      "status": "已停用（留档）",
+      "runs": 0,
+      "desc": "金字塔式分批建仓：30% 试探仓（老仓）→ 30% 确认仓（新仓）→ 40% 备用仓。老仓亏损 >3% 清仓、新仓亏损卖新留老。2026-08-04 曾用于长鑫科技建仓试探，后因单票策略冲突停用。",
+      "method": [
+        "试探仓 30%",
+        "确认仓 30%",
+        "备用仓 40%",
+        "老仓 -3%~-5% 止损线",
+        "新仓优先退出原则"
+      ],
+      "perf": "留档方法，参数已固化到配置"
+    },
+    {
+      "id": "overnight",
+      "icon": "🌐",
+      "name": "隔夜海外预测 + 盘后验证闭环",
+      "category": "预测",
+      "status": "运行中 · 每交易日 09:32 / 15:42",
+      "runs": 139,
+      "desc": "每日盘前采集 12 项隔夜海外指标（纳指/费半/道指/标普/中概/美债/铜等）+ 4 大股指期货基差（IH/IC/IM/IF 升贴水），生成当日 A 股方向预测；收盘后自动对照实际涨跌验证并累计准确率——这是整套系统里唯一有闭环度量置信度的预测策略。",
+      "method": [
+        "12 项海外指标采集",
+        "股指期货基差风险评级",
+        "VIX/DXY 降权降级机制",
+        "盘后自动验证",
+        "★ 五星自评体系"
+      ],
+      "perf": "累计准确率 84/134 = 62.7%"
+    },
+    {
+      "id": "cyhl",
+      "icon": "🔄",
+      "name": "创/红比值风格轮动",
+      "category": "风格",
+      "status": "运行中 · 每交易日 15:30",
+      "runs": 82,
+      "desc": "跟踪「创业板指 / 中证红利」比值判断市场风格：<0.35 极度防御 → 0.35-0.50 中性偏低 → 0.50-0.65 中性偏高 → 0.65-0.70 警戒 → ≥0.70 高风险。结合 MA20/MA60 趋势与两市成交额，给出创业板与红利两侧的操作建议，关键阈值 0.70/0.85。",
+      "method": [
+        "创/红比值五区间定位",
+        "MA20/MA60 双均线趋势",
+        "共振信号检测",
+        "成交额辅助确认"
+      ],
+      "perf": "82 期报告，全部成功"
+    },
+    {
+      "id": "bottom",
+      "icon": "🪝",
+      "name": "综合抄底信号",
+      "category": "择时",
+      "status": "运行中 · 每周六 10:30",
+      "runs": 2,
+      "desc": "三重分位共振抄底模型：指数 PE 分位 + 股债利差分位 + 权益基金/债券基金比值分位，全部拉取 2005 年以来历史数据计算分位数，三者同时进入低位区才发出抄底信号。",
+      "method": [
+        "PE 历史分位",
+        "股债利差分位",
+        "权益/债基比值分位",
+        "三重共振确认",
+        "每周推送"
+      ],
+      "perf": "新策略，已推送 2 期"
+    },
+    {
+      "id": "stop-hunt",
+      "icon": "🎯",
+      "name": "量化打穿止损线策略",
+      "category": "理论",
+      "status": "研究框架",
+      "runs": 0,
+      "desc": "理论级策略：止损单在价格轴上呈非齐次泊松分布 λ(t,P)，在整数关/均线/前低聚集。构建流动性密度积分 Q(P,t) 与冲击量 I(t)，当 I>Q 时价格穿透止损聚集区触发链式止损——策略不押方向，只押「即将穿透」的临界点。配套 demon_scout 扫描脚本已实现。",
+      "method": [
+        "止损聚集区泊松建模",
+        "流动性密度积分估算",
+        "冲击量阈值触发",
+        "demon_scout 扫描执行"
+      ],
+      "perf": "理论框架 + 扫描工具"
+    },
+    {
+      "id": "demon",
+      "icon": "👹",
+      "name": "Demon Scout 妖股侦察",
+      "category": "选股",
+      "status": "运行中",
+      "runs": 147,
+      "desc": "妖股动量扫描器，输出评分 Top 3 候选池（如新朋股份/东百集团/国芳集团 69/69/67 分）。历史 147 次选股 97 次获胜，胜率 66%，累计模拟盈利 +¥528.91——纸盘体系中胜率最高的单一方法。",
+      "method": [
+        "全市场动量扫描",
+        "多因子评分排序",
+        "Top 3 候选输出",
+        "结果自动归档"
+      ],
+      "perf": "胜率 66.0%（97/147）· 累计 +¥528.91"
+    },
+    {
+      "id": "hongta",
+      "icon": "🏦",
+      "name": "红塔创新动态监控",
+      "category": "风控",
+      "status": "运行中 · 每晚 21:00",
+      "runs": 152,
+      "desc": "持仓股风控哨兵：每日跟踪新亚强/德才股份/冰轮环境/煜邦电力/武汉天源 5 只标的的现价与年初至今涨跌幅（akshare 前复权日 K），异常波动即时告警。",
+      "method": [
+        "5 只持仓股日 K 采集",
+        "YTD 涨跌跟踪",
+        "异常波动告警"
+      ],
+      "perf": "152 晚连续监控"
+    },
+    {
+      "id": "futures",
+      "icon": "🛡️",
+      "name": "股指期货交割日预警 + 基差分析",
+      "category": "风控",
+      "status": "运行中 · 每日 09:31",
+      "runs": 191,
+      "desc": "每日盘前分析沪深300/中证500/中证1000/上证50 四大股指期货基差（升水/贴水）与成交，输出市场风险评级（🟢低/🟡中/🔴高）；交割日前自动预警移仓风险。",
+      "method": [
+        "四大期指基差采集",
+        "升贴水风险评级",
+        "交割日历预警"
+      ],
+      "perf": "已运行 191 次"
+    },
+    {
+      "id": "margin",
+      "icon": "📊",
+      "name": "两融模拟盘 + 三三制日报",
+      "category": "交易",
+      "status": "运行中 · 每交易日 16:18",
+      "runs": 112,
+      "desc": "¥1,000,000 独立基准的两融模拟：按纸盘持仓等比缩放至百万口径，计算信用总资产/总负债、维持担保比例，按 8.35% 年利率逐日折算融资利息，输出每日两融风险日报。",
+      "method": [
+        "百万基准折算",
+        "维持担保比例监控",
+        "8.35% 年利率逐日计息",
+        "三三制阶段联动"
+      ],
+      "perf": "112 期日报"
+    },
+    {
+      "id": "midday",
+      "icon": "⏰",
+      "name": "盘中交易告警",
+      "category": "风控",
+      "status": "运行中 · 11:00 / 14:00 双时点",
+      "runs": 273,
+      "desc": "交易时段两次盘中巡检（11:00 午前 + 14:00 午后），结合持仓浮盈浮亏与大盘状态生成即时告警，是所有任务中执行频次最高、累计运行最多的一环。",
+      "method": [
+        "午前/午后双时点巡检",
+        "持仓浮盈亏监控",
+        "异常即时推送"
+      ],
+      "perf": "273 次，执行量第一"
+    },
+    {
+      "id": "evolution",
+      "icon": "🧬",
+      "name": "自我进化与自评机制",
+      "category": "元策略",
+      "status": "运行中 · 每日 / 每周六",
+      "runs": 296,
+      "desc": "整套系统的元能力：盘后准确率验证给昨日判断打 ★；策略复盘 Agent 每日根据 5 日收益/回撤/连损自动调参并记录 changelog（129 次调优全部留痕）；每周六作业巡检 Agent 检查全部 cron 状态、纸盘账户与策略变更趋势。",
+      "method": [
+        "昨日判断 ★ 自评",
+        "自动参数调优 + changelog 留痕",
+        "熔断自动复位修复",
+        "每周全量巡检"
+      ],
+      "perf": "129 次调优 · 296 次自评/巡检"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-05-17",
+      "tag": "v2.0",
+      "title": "系统诞生",
+      "desc": "戴维斯双击追踪 + 持仓复盘上线，初始信号公式 Davis×70% + Tech×30%"
+    },
+    {
+      "date": "2026-05-25",
+      "tag": "v3.0",
+      "title": "三因子模型",
+      "desc": "加入行业动量因子，Davis×55% + Tech×30% + Industry×15%；低技术分持仓全亏触发权重反思"
+    },
+    {
+      "date": "2026-05-26~27",
+      "tag": "调参",
+      "title": "连续三日权重下调",
+      "desc": "Davis 55%→45%→35%→30%，Tech 升至 45% 居首，技术分门槛 -2.0→0.5，禁止负技术分开仓"
+    },
+    {
+      "date": "2026-05-28",
+      "tag": "v3.1",
+      "title": "账户重置 ¥50,000",
+      "desc": "解决高价热点股买不起问题；行业动量升至 45% 居首；新增可买性过滤；修复熔断 today_pnl 硬编码 Bug；行业数据分页扩至 300 板块"
+    },
+    {
+      "date": "2026-06-10~16",
+      "tag": "事故",
+      "title": "熔断误锁事件",
+      "desc": "连续止损触发熔断后，settle 脚本缺自动复位逻辑，账户被误锁 6 个交易日。复盘定性：连续止损根因是市场 Beta 下行而非信号失效——避免了一次无意义的过度调参"
+    },
+    {
+      "date": "2026-08-04",
+      "tag": "实验",
+      "title": "三三制建仓实验",
+      "desc": "试探仓 30% 建仓长鑫科技（688825），后因策略冲突停用三三制，7-31 该票 -9.3% 触发老仓清仓"
+    },
+    {
+      "date": "2026-08-10",
+      "tag": "里程碑",
+      "title": "最佳单笔交易",
+      "desc": "翔鹭钨业 +17.4% 止盈出场（+¥1,875），验证移动止盈机制有效"
+    },
+    {
+      "date": "2026-11-11",
+      "tag": "新增",
+      "title": "综合抄底信号上线",
+      "desc": "PE 分位 + 股债利差分位 + 权益/债基比值分位三重共振模型，每周六推送"
+    },
+    {
+      "date": "2026-11-17",
+      "tag": "风控",
+      "title": "回撤应对",
+      "desc": "最大回撤扩大至 -10.6%，单票仓位上限 20%→15% 收紧风控"
+    }
+  ],
+  "jobs": [
+    {
+      "name": "戴维斯双击每日追踪",
+      "sched": "每日 09:00",
+      "runs": 191,
+      "ok": true
+    },
+    {
+      "name": "每日持仓复盘(南山铝业+格林美)",
+      "sched": "交易日 15:30",
+      "runs": 138,
+      "ok": true
+    },
+    {
+      "name": "股指期货交割日预警",
+      "sched": "每日 09:31",
+      "runs": 191,
+      "ok": true
+    },
+    {
+      "name": "盘前海外预测",
+      "sched": "交易日 09:32",
+      "runs": 139,
+      "ok": true
+    },
+    {
+      "name": "盘后准确率验证",
+      "sched": "交易日 15:42",
+      "runs": 138,
+      "ok": true
+    },
+    {
+      "name": "盘中交易告警",
+      "sched": "交易日 11:00/14:00",
+      "runs": 273,
+      "ok": true
+    },
+    {
+      "name": "纸盘模拟交易(早盘)",
+      "sched": "交易日 10:00",
+      "runs": 131,
+      "ok": true
+    },
+    {
+      "name": "纸盘模拟结算(收盘)",
+      "sched": "交易日 15:54",
+      "runs": 131,
+      "ok": true
+    },
+    {
+      "name": "纸盘策略复盘+通知",
+      "sched": "交易日 16:12",
+      "runs": 130,
+      "ok": true
+    },
+    {
+      "name": "每周作业检查",
+      "sched": "每周六 10:00",
+      "runs": 26,
+      "ok": true
+    },
+    {
+      "name": "两融模拟盘日报",
+      "sched": "交易日 16:18",
+      "runs": 112,
+      "ok": true
+    },
+    {
+      "name": "红塔创新动态监控",
+      "sched": "每日 21:00",
+      "runs": 152,
+      "ok": true
+    },
+    {
+      "name": "创红比值风格轮动",
+      "sched": "交易日 15:30",
+      "runs": 82,
+      "ok": true
+    },
+    {
+      "name": "综合抄底信号每周推送",
+      "sched": "每周六 10:30",
+      "runs": 2,
+      "ok": true
+    }
+  ]
+}
