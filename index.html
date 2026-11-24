@@ -30,6 +30,12 @@
   @media (max-width: 800px) { .charts { grid-template-columns: 1fr; } }
   .chart-box { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
   .chart-box h3 { font-size: 14px; color: var(--muted); margin-bottom: 10px; font-weight: 500; }
+  .live-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-bottom: 10px; color: var(--muted); font-size: 12px; }
+  .live-toolbar button { border: 1px solid var(--border); border-radius: 6px; background: var(--panel2); color: var(--text); padding: 7px 10px; font: inherit; cursor: pointer; }
+  .live-toolbar button:hover { border-color: var(--accent); }
+  #live-error { color: var(--up); }
+  .live-table { min-width: 760px; }
+  .live-table .num { font-variant-numeric: tabular-nums; white-space: nowrap; }
   .grid-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 14px; }
   .backtest-controls { display: flex; flex-wrap: wrap; align-items: end; gap: 10px; padding: 16px; background: var(--panel); border: 1px solid var(--border); border-radius: 10px; }
   .backtest-controls label { display: grid; gap: 5px; color: var(--muted); font-size: 12px; }
@@ -78,6 +84,20 @@
   </header>
 
   <div class="kpis" id="kpis"></div>
+
+  <h2>📡 实时行情</h2>
+  <div class="live-toolbar">
+    <span id="live-updated">上次更新时间 —</span>
+    <span id="live-countdown">10 秒后刷新</span>
+    <button type="button" id="live-toggle" aria-pressed="false">⏸ 暂停刷新</button>
+    <span id="live-error" role="status"></span>
+  </div>
+  <div class="table-scroll">
+    <table class="live-table">
+      <thead><tr><th>名称</th><th>代码</th><th class="num">现价</th><th class="num">涨跌幅</th><th class="num">涨跌额</th><th class="num">开盘</th><th class="num">最高</th><th class="num">最低</th></tr></thead>
+      <tbody id="live-body"></tbody>
+    </table>
+  </div>
 
   <h2>📊 纸盘模拟账户净值</h2>
   <div class="charts">
@@ -376,6 +396,111 @@ document.querySelectorAll('[data-range]').forEach(button => {
   });
 });
 runBacktest();
+
+const LIVE_STOCKS = [
+  { code: 'sh000001', name: '上证指数', group: '指数' },
+  { code: 'sz399006', name: '创业板指', group: '指数' },
+  { code: 'sh000922', name: '中证红利', group: '指数' },
+  { code: 'sh600219', name: '南山铝业', group: '持仓复盘' },
+  { code: 'sz002340', name: '格林美', group: '持仓复盘' },
+  { code: 'sh603155', name: '新亚强', group: '红塔创新' },
+  { code: 'sh605287', name: '德才股份', group: '红塔创新' },
+  { code: 'sz000811', name: '冰轮环境', group: '红塔创新' },
+  { code: 'sh688591', name: '煜邦电力', group: '红塔创新' },
+  { code: 'sz300355', name: '武汉天源', group: '红塔创新' }
+];
+const liveBody = document.getElementById('live-body');
+const liveUpdated = document.getElementById('live-updated');
+const liveCountdown = document.getElementById('live-countdown');
+const liveError = document.getElementById('live-error');
+const liveToggle = document.getElementById('live-toggle');
+let livePaused = false;
+let liveSecondsRemaining = 10;
+let liveRequestPending = false;
+
+const liveHasNumber = value => value !== null && value !== undefined && value !== '' && Number.isFinite(Number(value));
+const liveNumber = value => liveHasNumber(value)
+  ? Number(value).toLocaleString('zh-CN', { minimumFractionDigits: 2, maximumFractionDigits: 2 })
+  : '—';
+
+function renderLiveQuotes(quotes) {
+  const quoteMap = new Map(quotes.map(quote => [quote.code, quote]));
+  liveBody.replaceChildren();
+  LIVE_STOCKS.forEach(stock => {
+    const quote = quoteMap.get(stock.code);
+    const row = document.createElement('tr');
+    const nameCell = document.createElement('td');
+    nameCell.textContent = quote && quote.name ? quote.name : stock.name;
+    const codeCell = document.createElement('td');
+    codeCell.textContent = stock.code;
+    row.append(nameCell, codeCell);
+    const change = quote && liveHasNumber(quote.price) && liveHasNumber(quote.prevClose)
+      ? Number(quote.price) - Number(quote.prevClose)
+      : NaN;
+    const values = [
+      quote ? quote.price : null,
+      quote ? quote.changePct : null,
+      change,
+      quote ? quote.open : null,
+      quote ? quote.high : null,
+      quote ? quote.low : null
+    ];
+    values.forEach((value, index) => {
+      const cell = document.createElement('td');
+      cell.className = 'num';
+      cell.textContent = index === 1 && liveHasNumber(value)
+        ? `${Number(value) > 0 ? '+' : ''}${liveNumber(value)}%`
+        : liveNumber(value);
+      if (index === 1 || index === 2) {
+        const numericValue = Number(value);
+        if (liveHasNumber(value)) cell.classList.add(numericValue > 0 ? 'up' : numericValue < 0 ? 'down' : '');
+      }
+      row.appendChild(cell);
+    });
+    liveBody.appendChild(row);
+  });
+}
+
+async function refreshLiveQuotes() {
+  if (liveRequestPending) return;
+  liveRequestPending = true;
+  try {
+    const codes = LIVE_STOCKS.map(stock => stock.code).join(',');
+    const response = await fetch(`/api/quotes?codes=${encodeURIComponent(codes)}`);
+    const result = await response.json();
+    if (!response.ok || !Array.isArray(result)) throw new Error(result.error || '行情响应格式错误');
+    renderLiveQuotes(result);
+    liveUpdated.textContent = `上次更新时间 ${new Date().toLocaleTimeString('zh-CN', { hour12: false })}`;
+    liveError.textContent = '';
+  } catch (error) {
+    liveError.textContent = `⚠️ 行情获取失败：${error.message || '请检查本地服务'}`;
+  } finally {
+    liveRequestPending = false;
+    liveSecondsRemaining = 10;
+  }
+}
+
+liveToggle.addEventListener('click', () => {
+  livePaused = !livePaused;
+  liveToggle.textContent = livePaused ? '▶ 继续刷新' : '⏸ 暂停刷新';
+  liveToggle.setAttribute('aria-pressed', String(livePaused));
+  if (!livePaused) {
+    liveSecondsRemaining = 0;
+    refreshLiveQuotes();
+  }
+});
+refreshLiveQuotes();
+setInterval(() => {
+  if (livePaused) {
+    liveCountdown.textContent = '刷新已暂停';
+    return;
+  }
+  liveCountdown.textContent = `${liveSecondsRemaining} 秒后刷新`;
+  if (liveSecondsRemaining > 0) liveSecondsRemaining -= 1;
+}, 1000);
+setInterval(() => {
+  if (!livePaused) refreshLiveQuotes();
+}, 10000);
 </script>
 </body>
 </html>
