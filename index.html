@@ -99,6 +99,33 @@
     </table>
   </div>
 
+  <h2>🌀 格林美 · RSI+KDJ 双超卖抄底（002340）</h2>
+  <div class="chart-box">
+    <div class="gm-head">
+      <div>
+        <strong>交易规则</strong>（同花顺「RSI+KDJ买入法」）
+        <div style="font-size:12px;color:var(--muted);margin-top:4px">
+          <span class="up">买入</span>：RSI(6) &lt; 16 且 J值 &lt; 10（双超卖）　·　
+          <span class="down">卖出</span>：WR(10) &lt; 20 或 BR(26) 上穿 160（过热/反转离场）
+        </div>
+      </div>
+      <span id="gm-updated" style="font-size:11px;color:var(--muted)">加载中…</span>
+    </div>
+    <div id="gm-signal" style="margin:12px 0;padding:10px 14px;border-radius:8px;background:var(--panel2);font-size:14px">
+      信号计算中…
+    </div>
+    <div class="kpis" id="gm-indicators" style="margin-top:8px"></div>
+    <h3 style="margin-top:16px">RSI / J 值近 60 日走势（虚线为买入阈值 16 / 10）</h3>
+    <canvas id="gm-chart" height="90"></canvas>
+    <h3 style="margin-top:16px">策略回测（2026-03-23 起，信号收盘确认 · 次日开盘执行）</h3>
+    <div id="gm-backtest-kpis" class="kpis" style="margin-top:10px"></div>
+    <table style="margin-top:12px">
+      <thead><tr><th>买入日</th><th>卖出日</th><th class="num">买入价</th><th class="num">卖出价</th><th class="num">持有交易日</th><th class="num">收益率</th><th>离场原因</th></tr></thead>
+      <tbody id="gm-trades"></tbody>
+    </table>
+    <p style="font-size:11px;color:var(--muted);margin-top:10px">⚠️ 指标口径与同花顺一致（SMA 递推平滑）；数据为前复权日 K；本策略为超跌反弹型，适合震荡下行股，单边急跌时可能连续补仓被套，仅供参考。</p>
+  </div>
+
   <h2>📊 纸盘模拟账户净值</h2>
   <div class="charts">
     <div class="chart-box"><h3>净值曲线（2026-05-28 起 · ¥50,000 初始资金）</h3><canvas id="navChart"></canvas></div>
@@ -501,6 +528,92 @@ setInterval(() => {
 setInterval(() => {
   if (!livePaused) refreshLiveQuotes();
 }, 10000);
+
+/* ==================== 格林美 · RSI+KDJ 双超卖策略 ==================== */
+document.querySelector('.gm-head').style.cssText = 'display:flex;justify-content:space-between;align-items:flex-start;gap:12px';
+let gmChart = null;
+const GM_SIGNAL_STYLE = {
+  buy:    {bg: 'rgba(240,80,110,.15)', color: '#f0506e', icon: '🟢'},
+  sell:   {bg: 'rgba(46,168,110,.15)', color: '#2ea86e', icon: '🔴'},
+  watch:  {bg: 'rgba(217,165,63,.15)', color: '#d9a53f', icon: '🟡'},
+  neutral:{bg: 'var(--panel2)',        color: 'var(--muted)', icon: '⚪'}
+};
+
+async function refreshGmStrategy() {
+  try {
+    const snap = await (await fetch('/api/gm_strategy')).json();
+    if (snap.error) { document.getElementById('gm-updated').textContent = '⚠️ ' + snap.error; return; }
+    const now = new Date().toTimeString().slice(0, 8);
+    document.getElementById('gm-updated').textContent = `更新于 ${now} · ${snap.date} 收盘`;
+
+    // 信号状态条
+    const sig = GM_SIGNAL_STYLE[snap.signal.state] || GM_SIGNAL_STYLE.neutral;
+    const el = document.getElementById('gm-signal');
+    el.style.background = sig.bg; el.style.color = sig.color;
+    el.innerHTML = `<strong>${sig.icon} ${snap.signal.text}</strong>　<span style="color:var(--text)">现价 ¥${snap.close.toFixed(2)}</span>`;
+
+    // 指标卡（含阈值状态标注）
+    const ind = snap.indicators;
+    const cards = [
+      {label: 'RSI(6)', value: ind.rsi, ref: 16, dir: 'low'},
+      {label: 'J 值 (9,3,3)', value: ind.j, ref: 10, dir: 'low'},
+      {label: 'WR(10)', value: ind.wr, ref: 20, dir: 'low'},
+      {label: 'BR(26)', value: ind.br, ref: 160, dir: 'high'},
+    ];
+    document.getElementById('gm-indicators').innerHTML = cards.map(c => {
+      const hit = c.dir === 'low' ? c.value < c.ref : c.value > c.ref;
+      return `<div class="kpi"><div class="label">${c.label} <span style="color:var(--muted)">阈值 ${c.dir === 'low' ? '<' : '>'}${c.ref}</span></div>
+        <div class="value ${hit ? (c.dir === 'low' ? 'up' : 'down') : ''}">${c.value}</div>
+        <div class="sub">${hit ? '⚡ 已触发' : '未触发'}</div></div>`;
+    }).join('');
+
+    // 回测统计卡
+    const bt = snap.backtest;
+    const bts = [
+      {label: '交易次数', value: bt.count},
+      {label: '胜率', value: bt.winRate + '%', cls: bt.winRate >= 50 ? 'up' : 'down'},
+      {label: '平均收益/笔', value: (bt.avgReturn > 0 ? '+' : '') + bt.avgReturn + '%', cls: cls(bt.avgReturn)},
+      {label: '最佳 / 最差', value: `+${bt.best}% / ${bt.worst > 0 ? '+' : ''}${bt.worst}%`},
+      {label: '买入持有对比', value: (bt.buyHoldReturn > 0 ? '+' : '') + bt.buyHoldReturn + '%', cls: cls(bt.buyHoldReturn)},
+    ];
+    document.getElementById('gm-backtest-kpis').innerHTML = bts.map(x =>
+      `<div class="kpi"><div class="label">${x.label}</div><div class="value ${x.cls || ''}" style="font-size:17px">${x.value}</div></div>`).join('');
+
+    // 交易明细
+    document.getElementById('gm-trades').innerHTML = bt.trades.map(t =>
+      `<tr><td>${t.entryDate}</td><td>${t.exitDate}</td><td class="num">${t.entryPrice}</td><td class="num">${t.exitPrice}</td>
+       <td class="num">${t.holdingDays}</td><td class="num up">+${t.returnPct}%</td><td>${t.exitReason}</td></tr>`).join('')
+      + (bt.openTrade ? `<tr><td>${bt.openTrade.entryDate}</td><td>持仓中</td><td class="num">${bt.openTrade.entryPrice}</td><td class="num">—</td>
+       <td class="num">—</td><td class="num ${cls(bt.openTrade.floatReturnPct)}">${bt.openTrade.floatReturnPct > 0 ? '+' : ''}${bt.openTrade.floatReturnPct}%</td><td>浮动盈亏</td></tr>` : '');
+
+    // RSI / J 迷你图
+    const labels = snap.series.map(p => p.date.slice(5));
+    if (gmChart) gmChart.destroy();
+    gmChart = new Chart(document.getElementById('gm-chart'), {
+      type: 'line',
+      data: {
+        labels,
+        datasets: [
+          {label: 'RSI(6)', data: snap.series.map(p => p.rsi), borderColor: '#f0506e', borderWidth: 2, pointRadius: 0, tension: .3},
+          {label: 'J 值', data: snap.series.map(p => p.j), borderColor: '#4e8ef7', borderWidth: 2, pointRadius: 0, tension: .3},
+          {label: '买入阈值 16', data: labels.map(() => 16), borderColor: 'rgba(240,80,110,.4)', borderDash: [6, 4], borderWidth: 1, pointRadius: 0},
+          {label: '买入阈值 10', data: labels.map(() => 10), borderColor: 'rgba(78,142,247,.4)', borderDash: [6, 4], borderWidth: 1, pointRadius: 0},
+        ]
+      },
+      options: {
+        plugins: { legend: { labels: { color: '#8b949e', font: { size: 11 }, boxWidth: 14 } } },
+        scales: {
+          x: { ticks: { color: '#8b949e', maxTicksLimit: 10 }, grid: { color: '#21262d' } },
+          y: { ticks: { color: '#8b949e' }, grid: { color: '#21262d' }, suggestedMin: -10 }
+        }
+      }
+    });
+  } catch (e) {
+    document.getElementById('gm-updated').textContent = '⚠️ 实时服务不可用（Pages 静态版无 /api）';
+  }
+}
+refreshGmStrategy();
+setInterval(refreshGmStrategy, 60000);  // 指标盘后变化不大，60 秒足够
 </script>
 </body>
 </html>
